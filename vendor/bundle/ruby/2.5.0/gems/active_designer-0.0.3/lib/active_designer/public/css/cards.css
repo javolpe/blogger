@@ -1,0 +1,107 @@
+.card {
+  position: absolute;
+  width: 200px;
+  z-index: 4;
+  background-color: #D9D9DA;
+  color: #4B5B75;
+}
+
+.card-block {
+  padding: 4px;
+}
+
+.card-title {
+  float: left;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #D9D9DA;
+}
+
+.table-nav-buttons {
+  float: right;
+}
+
+.card-header {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #4B5B75;
+}
+
+.table-form {
+  width: 100%;
+}
+
+.column-form {
+  width: 70%;
+}
+
+.tag-danger {
+  background-color: darkred;
+}
+
+.tag-default {
+  background-color: #4B5B75;
+  color: #FFF0D7;
+}
+
+.fa-arrows {
+  float: left;
+  margin-top: 2px;
+  margin-right: 2px;
+  color: #D9D9DA;
+}
+
+.fa-trash {
+  color: darkred;
+  margin: 0px;
+}
+
+.fa-plus-square {
+  color: #D9D9DA;
+  margin-top: 2px;
+  margin-right: 0px;
+}
+
+.list-group {
+  border: none;
+  border-radius: 4px;
+  border-left: 2px solid #4B5B75;
+  border-right: 2px solid #4B5B75;
+  border-top: 2px solid #4B5B75;
+}
+
+.list-group-item {
+  height: 26px;
+  padding: 3px;
+  max-width: 250px;
+  overflow: hidden !important;
+  background-color: #D9D9DA;
+  border: none;
+  border-bottom: 2px solid #4B5B75;
+}
+
+.type-span {
+  max-width: 60px;
+  float: left;
+  color: #D9D9DA;
+}
+
+.column-title-outer {
+  position: absolute;
+  width: 54%;
+  overflow: scroll;
+  margin-left: 62px;
+}
+
+.delete-column {
+  color: darkred;
+  float: right;
+}
+
+.delete-ref {
+  color: darkred;
+  float: right;
+}
